@@ -25,7 +25,7 @@ export default function UploadDataset() {
 
     setDataframe(jsonData);
     try {
-      const response = await fetch('http://127.0.0.1:5000/preprocess', {
+      const response = await fetch('https://big-mart-sales-visualisation.onrender.com/preprocess', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

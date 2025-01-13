@@ -21,7 +21,7 @@ export default function ChatBot() {
       // Simulate bot response
       console.log(input); 
       try{
-        const response = await fetch('http://127.0.0.1:5000/gemini', {
+        const response = await fetch('https://big-mart-sales-visualisation.onrender.com/gemini', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
