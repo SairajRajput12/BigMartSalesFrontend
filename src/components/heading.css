@@ -1,0 +1,22 @@
+.first-heading{
+    /* width: 100%; */
+    margin-left: 24px;
+    display: flex; 
+    /* margin-top: 12px; */
+    align-items: center;
+    justify-content: center;
+    /* height: 120px; */
+    background-color: rgba(245, 245, 245, 0.306);
+    width: 360px;
+    padding-bottom: 12px;
+    border-radius: 14px;
+    border: 1px solid white;
+}
+
+.first-heading h1{
+    text-align: center; 
+    color: white; 
+    width: auto;
+    padding: 25px;
+    margin-top: 1.5px;
+}

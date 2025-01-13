@@ -1,0 +1,22 @@
+body {
+  background: url('blue bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; Make sure it covers the entire viewport height */
+  /* overflow-x: hidden; Prevent horizontal scrolling */
+}
+
+.main-content{
+  display: flex; 
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.user-ui{
+  display: flex;
+  flex-direction: row; 
+  gap: 12px;
+  height: 100vh;
+}

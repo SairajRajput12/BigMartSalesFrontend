@@ -1,0 +1,7 @@
+.bar-chart{
+    background-color: rgba(245, 245, 245, 0.306);
+    width: 500px;
+    margin-left: 12px;
+    border-radius: 12px; 
+    border: 1px solid white;
+}

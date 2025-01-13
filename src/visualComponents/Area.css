@@ -1,0 +1,12 @@
+.area-chart{
+    background-color: rgba(245, 245, 245, 0.306);
+    margin-left: 24px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.area-chart {
+    width: 550px; 
+}
+  
